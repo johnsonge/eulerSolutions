@@ -11,4 +11,4 @@ for i in range(2, int(n**0.5)):
 	if n % i == 0:
 		n = n / i
 		prime.append(i)
-print prime[-1]
+		print prime
